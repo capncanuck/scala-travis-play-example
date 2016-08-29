@@ -1,11 +1,7 @@
 language: scala
 scala:
-<<<<<<< HEAD
-   - 2.9.3
-   - 2.10.4
-   - 2.11.2
-jdk:
-  - oraclejdk8
-=======
    - 2.11.7
->>>>>>> e8b7cb95e3c42894fc2ec96fca96354ccbf833e9
+jdk:
+   - oraclejdk8
+
+
