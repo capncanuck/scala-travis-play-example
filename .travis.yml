@@ -3,5 +3,9 @@ scala:
    - 2.11.7
 jdk:
    - oraclejdk8
-
+deploy:
+  provider: opsworks
+  access-key-id: AKIAJQ5NIJ4ZAZYHRFEQ
+  secret-access-key: tPY7anrrJKr7FzlYNBmWAcveGkxmsWf6lWbpa33Vv644095
+  app-id: APP-ID
 
