@@ -6,6 +6,6 @@ jdk:
 deploy:
   provider: opsworks
   access-key-id: AKIAJQ5NIJ4ZAZYHRFEQ
-  secret-access-key: tPY7anrrJKr7FzlYNBmWAcveGkxmsWf6lWbpa33Vv644095
+  secret-access-key: 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
   app-id: APP-ID
 
