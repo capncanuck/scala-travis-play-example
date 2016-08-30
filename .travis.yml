@@ -7,5 +7,6 @@ deploy:
   provider: opsworks
   access-key-id: AKIAJQ5NIJ4ZAZYHRFEQ
   secret-access-key: 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
-  app-id: APP-ID
+  app-id: e08e551a-908c-4adc-971b-6527d8f5ac66
+
 
