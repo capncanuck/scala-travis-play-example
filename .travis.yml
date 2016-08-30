@@ -5,7 +5,7 @@ jdk:
    - oraclejdk8
 deploy:
   provider: opsworks
-  access-key-id: AKIAJQ5NIJ4ZAZYHRFEQ
+  access-key-id: AKIAJNN5LAFE7636SLCQ
   secret-access-key: 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
   app-id: e08e551a-908c-4adc-971b-6527d8f5ac66
 
