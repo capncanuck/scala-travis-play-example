@@ -1,12 +1,13 @@
 language: scala
 scala:
-   - 2.11.7
+- 2.11.7
 jdk:
-   - oraclejdk8
+- oraclejdk8
 deploy:
   provider: opsworks
-  access-key-id: AKIAJNN5LAFE7636SLCQ
-  secret-access-key: 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
+  access_key_id: AKIAJWGCOATAULDKYIUQ
+  secret_access_key:
+    secure: whmydD9G4wwBlQVJRZPZAHxincbBF6wRhkuI1S1OD+eczow/x94ScYUSv4s8VWZ4SCIgC6YfPWcu5xZmUugtPpB9pp9K2VWLgqJ3ZjTBpUpy5b3GnZ4OeV1UrqYzG1jd0JWEZAFPJCTC8ubl18Ph/eUWUhFLKKOrT+4RVK09v7DwfbYpYMa8EX88sLKq9O21qRn+chlB/t8t7yoCT0qEibxEcwc2EUAvH8bTFQKpW2MnIUHJPGIDpKNNbqmv0/ovhOGiG7YiQ8dFkvasLd7uGJokrEgBkPjT8DWtOIdkTVIu6OqSKwo2Z3O9G/Z0HjsWa3DPco58abgsepoo6e3K0a8GVCgOzHuvGph7fZeJFSRGqku1Fy5H/9nA4NubH00HT5/HTfp5FvVKwyUWDvgtcC4ofGl5NmcQ95XGgWgXHShf4qegOMp/Z6LyqYu3dP8vtp3e56fT80XajtZSVG9qxgfnbW4oo1ayaePOPrK8ojaebDzBsK9VBmmG3HSBqBZGTrw3VnQTtGqq+Y2M2sL+2RAFt6b2x2824V47rW8rgq57kLNxeJ2hLcwRq+MMR+2bnXuSVHhpSPUyw+3GvK+o2VupX+v/WPjIan067P6axw73jjGtQchQE4d3509shYFfS/yTLzClfnNqzRfFIT4mI2pzvlDd5fx7KyaY9Djr5Sk=
   app-id: 8f6e1a3c-5ed0-4d20-bbf3-56cb485e0217
-
-
+  on:
+    repo: capncanuck/scala-travis-play-example
